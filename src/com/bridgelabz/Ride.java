@@ -16,9 +16,8 @@ public class Ride {
 
     /**
      * create constructor name as Ride,this is parameterized constructor
-     *
      * @param distance in cab invoice generator
-     * @param time     in cab invoice generator
+     * @param time in cab invoice generator
      */
     public Ride(double distance, int time) {
 
@@ -28,11 +27,9 @@ public class Ride {
         this.distance = distance;
         this.time = time;
     }
-
     /**
      * crete a get method name as getDistance
      * The get method returns the value of the variable
-     *
      * @return distance
      */
     public double getDistance() {
@@ -42,7 +39,6 @@ public class Ride {
     /**
      * crete a get method name as getTime
      * The get method returns the value of the variable
-     *
      * @return time
      */
     public int getTime() {
